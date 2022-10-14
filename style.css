@@ -27,8 +27,11 @@ body {
     width: 100%;
 }
 
-ul {
-    list-style: none;
+.my-links {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
 }
 
 .avatar {
@@ -44,13 +47,6 @@ ul {
     width: 30px;
 }
 
-.my-links {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: fit-content;
-}
-
 h1, h2 {
     color: var(--gray-300);
     margin-top: 0;
@@ -63,6 +59,10 @@ h1 {
 h2 {
     font-size: 14px;
     font-weight: 400;
+}
+
+ul {
+    list-style: none;
 }
 
 /* My extra links */
