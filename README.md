@@ -1,6 +1,6 @@
 # __Portfolio__
 
-![preview](./.github/preview.png)
+![preview](./.github/preview.jpeg)
 
 Projeto construído com o objetivo de juntar todos os repositórios do github em desenvolvimento em uma única página com a intenção de facilitar na visualização dos meus projetos.
 
