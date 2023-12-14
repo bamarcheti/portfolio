@@ -1,19 +1,18 @@
-# __Portfólio__
+# **Portfólio**
 
-![preview](./.github/preview.jpeg)
+![preview](./.github/preview.png)
 
 Projeto construído com o objetivo de juntar todos os repositórios do github em desenvolvimento em uma única página com a intenção de facilitar na visualização dos meus projetos.
 
-[🔗 Clique aqui para acessar](https://bamarcheti.github.io/Portfolio/)
+[🔗 Clique aqui para acessar](https://bamarcheti.github.io/portfolio/)
 
+## **🛠 Tecnologias**
 
-## __🛠 Tecnologias__
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-
-## __💛 Contato__
+## **💛 Contato**
 
 [<img src='https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About&logoColor=white' alt='Website' height='30'>](https://my-resume-bamarcheti.vercel.app/)
 [<img src='https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white' alt='Discord' height='30'>](https://discord.com/channels/@ba_marcheti#3824)
