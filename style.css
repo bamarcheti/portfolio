@@ -7,7 +7,6 @@
 }
 
 * {
-  border: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -15,22 +14,18 @@
 }
 
 body {
-  margin-top: 90px;
-  margin-bottom: 100px;
+  margin: 90px 0 100px;
   align-items: center;
   background-color: var(--background);
   display: flex;
   justify-content: center;
-  height: auto;
   position: relative;
-  width: 100%;
 }
 
 .my-links {
-  align-items: center;
   display: flex;
   flex-direction: column;
-  height: fit-content;
+  align-items: center;
 }
 
 .avatar {
@@ -71,18 +66,7 @@ h2 {
 
 ul {
   list-style: none;
-}
-
-a {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-/* My extra links */
-
-.my-extra-links {
-  padding: 24px 16px;
+  padding: 0;
 }
 
 .my-extra-links li {
@@ -92,9 +76,6 @@ a {
   padding: 8px 16px;
   text-align: center;
   transition: background-color 0.6s;
-}
-
-.my-extra-links li:not(:last-child) {
   margin-bottom: 12px;
 }
 
@@ -117,22 +98,12 @@ a {
   justify-content: center;
 }
 
-.icon-react {
-  height: 20px;
-  width: auto;
-}
-
-.icon-vue {
-  height: 20px;
-  width: auto;
-}
-
+.icon-react,
+.icon-vue,
 .icon-next {
   height: 20px;
   width: auto;
 }
-
-/* My social network links */
 
 .social-network-links {
   display: flex;
@@ -163,33 +134,19 @@ canvas {
   height: 100%;
 }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-feature-settings: "lnum";
-  -moz-font-feature-settings: "lnum";
-  font-feature-settings: "lnum";
-}
-
 ::-webkit-scrollbar {
   width: 4px;
   height: 4px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: var(--white);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(156, 156, 156);
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: var(--gray-400);
 }
