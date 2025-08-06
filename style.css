@@ -1,5 +1,5 @@
 :root {
-  --background: #272c43;
+  --background: #2f375b;
   --very-dark-blue: #2c2e43;
   --white: #ffffff;
   --purple: #644aff;
@@ -36,10 +36,6 @@ body {
   max-height: 150px;
   width: auto;
   height: auto;
-}
-
-.avatar:hover {
-  border: 3px solid var(--gray-400);
 }
 
 .outline-avatar {
