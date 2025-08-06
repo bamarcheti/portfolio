@@ -1,9 +1,7 @@
 :root {
-  --background: #2f375b;
-  --very-dark-blue: #2c2e43;
+  --background: #272c43;
   --white: #ffffff;
   --purple: #644aff;
-  --gray-300: #cbd5e0;
   --gray-400: #888585;
 }
 
@@ -16,11 +14,9 @@
 
 body {
   margin: 90px 0 100px;
-  align-items: center;
   background-color: var(--background);
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .my-links {
@@ -33,8 +29,6 @@ body {
   border: 4px solid var(--purple);
   border-radius: 50%;
   max-width: 200px;
-  max-height: 150px;
-  width: auto;
   height: auto;
 }
 
@@ -46,23 +40,9 @@ body {
   width: 30px;
 }
 
-h1,
-h2 {
-  color: var(--gray-400);
-  margin-top: 0;
-}
-
 h1 {
+  color: var(--gray-400);
   font-size: 20px;
-}
-
-h2 {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-ul {
-  list-style: none;
 }
 
 a {
@@ -72,44 +52,35 @@ a {
 }
 
 .my-extra-links {
+  display: flex;
+  flex-direction: column;
   padding: 24px 16px;
 }
 
-.my-extra-links li {
+.extra-link {
   border: 2px solid var(--gray-400);
   border-radius: 20px;
-  cursor: pointer;
   padding: 8px 16px;
   text-align: center;
-  transition: background-color 0.6s;
   margin-bottom: 12px;
+  transition: border-color 0.6s, opacity 0.6s;
 }
 
-.my-extra-links li a {
+.extra-link a {
   color: var(--gray-400);
   text-decoration: none;
-  transition: color 0.6s;
+  justify-content: center;
 }
 
-.my-extra-links li:hover {
+.extra-link:hover {
   border-color: rgba(136, 133, 133, 0.8);
   opacity: 0.8;
-}
-
-.my-extra-links li:hover a {
-  opacity: 0.8;
-}
-
-.link-container {
-  display: flex;
-  justify-content: center;
 }
 
 .icon-react,
 .icon-vue,
 .icon-next {
   height: 20px;
-  width: auto;
 }
 
 .social-network-links {
@@ -143,7 +114,6 @@ canvas {
 
 ::-webkit-scrollbar {
   width: 4px;
-  height: 4px;
 }
 
 ::-webkit-scrollbar-track {
