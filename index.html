@@ -7,6 +7,7 @@
     <link rel="icon" href="assets/svg/favicon.svg" />
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
@@ -24,16 +25,15 @@
   </head>
 
   <body id="particles-js">
-    <main id="container" class="my-links">
-      <div id="profile">
+    <main id="container">
+      <!-- Perfil -->
+      <section id="profile">
         <a
-          class="outline-avatar"
           href="https://my-resume-bamarcheti.vercel.app/"
           target="_blank"
           aria-label="Ver currículo online"
         >
           <img
-            class="avatar"
             src="https://github.com/bamarcheti.png"
             alt="Foto de perfil de Bárbara Marcheti Fiorin"
           />
@@ -41,139 +41,113 @@
 
         <ion-icon class="icon-computer" name="code-outline"></ion-icon>
 
-        <h2>Bárbara Marcheti Fiorin</h2>
-      </div>
+        <h1>Bárbara Marcheti Fiorin</h1>
+      </section>
 
+      <!-- Switch Dark/Light -->
       <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
       </div>
 
+      <!-- Links extras -->
       <div class="my-extra-links">
         <div class="extra-link">
           <a
-            class="link-container"
             href="https://bamarcheti.github.io/projetos-react/"
             target="_blank"
           >
-            <ion-icon name="logo-react"></ion-icon>
-            Projetos React
+            <ion-icon name="logo-react"></ion-icon> Projetos React
           </a>
         </div>
         <div class="extra-link">
           <a
-            class="link-container"
             href="https://previsao-tempo-bamarcheti.vercel.app/"
             target="_blank"
           >
-            <ion-icon name="logo-react"></ion-icon>
-            Previsão do Tempo
+            <ion-icon name="logo-react"></ion-icon> Previsão do Tempo
           </a>
         </div>
         <div class="extra-link">
           <a
-            class="link-container"
             href="https://github.com/bamarcheti/treinamento-react"
             target="_blank"
           >
-            <ion-icon name="logo-react"></ion-icon>
-            Treinamento React
+            <ion-icon name="logo-react"></ion-icon> Treinamento React
           </a>
         </div>
-        <!-- <div class="extra-link">
-          <a
-            class="link-container"
-            href="https://dypier-site.vercel.app/"
-            target="_blank"
-          >
-            <img
-              class="icon-next"
-              loading="lazy"
-              src="assets/svg/next.svg"
-              alt="Next.js"
-            />
-            Dypier
-          </a>
-        </div> -->
         <div class="extra-link">
           <a
-            class="link-container"
             href="https://github-finder-bamarchetis-projects.vercel.app/"
             target="_blank"
           >
-            <ion-icon name="logo-react"></ion-icon>
-            Busca de Usuários GitHub
+            <ion-icon name="logo-react"></ion-icon> Busca de Usuários GitHub
+          </a>
+        </div>
+        <div class="extra-link">
+          <a href="https://library-connect.vercel.app/authors" target="_blank">
+            <ion-icon name="logo-react"></ion-icon> Biblioteca
           </a>
         </div>
         <div class="extra-link">
           <a
-            class="link-container"
-            href="https://library-connect.vercel.app/authors"
-            target="_blank"
-          >
-            <ion-icon name="logo-react"></ion-icon>
-            Biblioteca
-          </a>
-        </div>
-        <div class="extra-link">
-          <a
-            class="link-container"
             href="https://make-your-burguer-bamarchetis-projects.vercel.app/"
             target="_blank"
           >
-            <ion-icon name="logo-vue"></ion-icon>
-            Peça um Hambúrguer
+            <ion-icon name="logo-vue"></ion-icon> Peça um Hambúrguer
           </a>
         </div>
       </div>
 
+      <!-- Redes sociais -->
       <div id="social-links" class="social-network-links">
         <a
-          target="_blank"
           href="https://my-resume-bamarcheti.vercel.app/"
+          target="_blank"
           title="CV Online"
         >
           <ion-icon name="globe-outline"></ion-icon>
         </a>
         <a
-          target="_blank"
           href="https://www.linkedin.com/in/barbara-marcheti-fiorin/"
+          target="_blank"
           title="LinkedIn"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
         <a
-          target="_blank"
           href="mailto:bmarchetifiorin@gmail.com"
+          target="_blank"
           title="Enviar e-mail"
         >
           <ion-icon name="mail-outline"></ion-icon>
-          </svg>
         </a>
         <a
-          target="_blank"
           href="https://www.instagram.com/ba_marcheti/"
+          target="_blank"
           title="Instagram"
         >
           <ion-icon name="logo-instagram"></ion-icon>
         </a>
-        <a target="_blank" href="https://github.com/bamarcheti" title="GitHub">
+        <a href="https://github.com/bamarcheti" target="_blank" title="GitHub">
           <ion-icon name="logo-github"></ion-icon>
         </a>
         <a
-          target="_blank"
           href="https://discord.com/channels/@ba_marcheti#3824"
+          target="_blank"
           title="Discord"
         >
           <ion-icon name="logo-discord"></ion-icon>
         </a>
       </div>
 
+      <!-- Rodapé -->
       <footer>
-        <p>©<span id="year"></span> Bárbara Marcheti Fiorin</p>
+        <p>© <span id="year"></span> Bárbara Marcheti Fiorin</p>
       </footer>
     </main>
 
+    <!-- Scripts -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -182,7 +156,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
       async
